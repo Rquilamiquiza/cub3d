@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joandre <joandre@student.42.fr>            +#+  +:+       +#+        */
+/*   By: rquilami <rquilami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 10:44:37 by joandre           #+#    #+#             */
-/*   Updated: 2025/01/23 22:44:48 by joandre          ###   ########.fr       */
+/*   Updated: 2025/01/24 13:54:29 by rquilami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # define HEIGTH 1100
 # define RED "\033[31m"
 # define RESET "\033[0m"
+# define M_PI 3.14159265359
 
 # include "../get_next_line/get_next_line.h"
 # include "../libft/libft.h"
@@ -52,6 +53,7 @@ typedef struct s_data_player
 	int			fov;
 	int			dir;
 	int			*pos;
+	double 		triangle_angle;
 	int			incr_x;
 	int			incr_y;
 	int			color;
