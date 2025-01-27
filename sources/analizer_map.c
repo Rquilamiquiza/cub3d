@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   analizer_map.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joandre <joandre@student.42.fr>            +#+  +:+       +#+        */
+/*   By: rquilami <rquilami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/21 14:38:25 by joandre           #+#    #+#             */
-/*   Updated: 2025/01/23 18:32:13 by joandre          ###   ########.fr       */
+/*   Updated: 2025/01/27 09:21:38 by rquilami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 int	ft_tab_space(char c)
 {

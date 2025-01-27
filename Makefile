@@ -3,17 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: joandre <joandre@student.42.fr>            +#+  +:+       +#+         #
+#    By: rquilami <rquilami@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/15 10:21:32 by joandre           #+#    #+#              #
-#    Updated: 2025/01/23 21:02:36 by joandre          ###   ########.fr        #
+#    Updated: 2025/01/27 09:53:37 by rquilami         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
 NAME = cub3d
 SRC_DIR = sources
-SRC = hovers.c main.c window.c valid_map.c analizer_map.c player.c screen.c
+SRC = main.c player.c valid_map.c analizer_map.c window.c
 LIBFT_DIR = libft
 GETNEXTLINE_DIR = get_next_line
 GETNEXTLINE = $(GETNEXTLINE_DIR)/get_next_line.a

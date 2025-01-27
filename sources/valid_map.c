@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   valid_map.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joandre <joandre@student.42.fr>            +#+  +:+       +#+        */
+/*   By: rquilami <rquilami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/16 10:00:19 by joandre           #+#    #+#             */
-/*   Updated: 2025/01/23 20:30:50 by joandre          ###   ########.fr       */
+/*   Updated: 2025/01/27 09:14:16 by rquilami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+# include "../includes/cub3d.h"
 
 void	free_map(char **map)
 {
@@ -121,7 +121,7 @@ int	ft_verify_options_in_map(char **map)
 	return (i);
 }
 
-int	ft_analitic_map(char **map, t_general_data *mapp)
+int	ft_analitic_map(char **map, t_game *mapp)
 {
 	int		i;
 	i = 0;
@@ -136,7 +136,7 @@ int	ft_analitic_map(char **map, t_general_data *mapp)
 	return (i);
 }
 
-int	ft_valid_map(char *name, t_general_data *mapp)
+int	ft_valid_map(char *name, t_game *mapp)
 {
 	int	i;
 	i = 0;
