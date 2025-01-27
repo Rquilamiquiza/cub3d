@@ -6,7 +6,7 @@
 /*   By: rquilami <rquilami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/27 09:09:51 by rquilami          #+#    #+#             */
-/*   Updated: 2025/01/27 09:49:35 by rquilami         ###   ########.fr       */
+/*   Updated: 2025/01/27 10:08:05 by rquilami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 # include "../includes/cub3d.h"
 
-int	ft_close_window(t_game *data)
+void	ft_close_window(t_game *data)
 {
 	mlx_destroy_window(data->mlx, data->win);
 	mlx_destroy_image(data->mlx, data->img);
@@ -41,8 +41,6 @@ void init_player(t_player *player)
 
 int key_press(int keycode, t_game *game)
 {
-	if (keycode == 65307 || keycode == 65307)
-		ft_close_window(game);
     if(keycode == W)
         game->player.key_up = true;
     if(keycode == S)

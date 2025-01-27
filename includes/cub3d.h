@@ -47,6 +47,7 @@ typedef struct s_game
 	void		*mlx;
 	void		*win;
 	void		*img;
+    bool        *exit;
 
 	char		*data;
 	int			bpp;
